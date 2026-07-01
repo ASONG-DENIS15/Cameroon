@@ -1,0 +1,29 @@
+.attractions-page h1 {
+  color: var(--primary);
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.attraction-card {
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.attraction-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.attraction-card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.attraction-info {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
